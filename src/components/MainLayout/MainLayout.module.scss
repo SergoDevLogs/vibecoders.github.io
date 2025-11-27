@@ -1,0 +1,88 @@
+.header{
+  width: 100%;
+  display: flex;
+  padding: 1.5rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active{
+  background: #6F6B9D !important;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+.title__header{
+  font-size: 32px;
+  padding-left: 10px;
+}
+
+.th{
+  background: #595959;
+  width: 98vw;
+  height: 1px;
+  margin: 1rem 0;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  padding: 12px 175px 12px 24px;
+  border-radius: 16px;
+  font-size: 18px;
+  background: var(--gray);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.text__exit{
+  color: #667085;
+  font-size: 14px;
+  gap: 8px;
+  display: flex;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+a:not(.active):hover {
+  background: #666666 !important;
+}
+
+.wrap__navbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+// Добавьте к существующим стилям
+.createOrderBtn {
+    padding: 12px 24px;
+    border-radius: 16px;
+    font-size: 18px;
+    background: #4CAF50 !important; // Зеленый цвет для создания
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    
+    &:hover {
+        background: #45a049 !important;
+    }
+}
+
+// Убедитесь, что кнопка создания не получает активные стили
+.createOrderBtn.active {
+    background: #4CAF50 !important; // Остается зеленым даже если "активна"
+}

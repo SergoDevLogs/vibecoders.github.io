@@ -1,0 +1,134 @@
+.dateSearch {
+    background: #5b5b5b69;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #888888;
+    direction: ltr;
+}
+
+.dateSearch__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.dateSearch__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff;
+}
+
+.dateSearch__stats {
+    font-size: 16px;
+    color: #C0C0C0;
+    font-weight: 500;
+}
+
+.dateSearch__controls {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.searchInput {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.searchInput__label {
+    font-size: 16px;
+    color: #C0C0C0;
+    font-weight: 600;
+}
+
+.searchInput__field {
+    padding: 10px 12px;
+    border: 1px solid #888888;
+    border-radius: 8px;
+    background: #383838;
+    color: #ffffff;
+    font-size: 16px;
+    min-width: 200px;
+    direction: ltr;
+    text-align: left;
+    
+    &:focus {
+        outline: none;
+        border-color: #57ABDC;
+    }
+    
+    &::placeholder {
+        color: #888888;
+        direction: ltr;
+        text-align: left;
+    }
+}
+
+.dateInput {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dateInput__label {
+    font-size: 16px;
+    color: #C0C0C0;
+    font-weight: 600;
+}
+
+.dateInput__field {
+    padding: 10px 12px;
+    border: 1px solid #888888;
+    border-radius: 8px;
+    background: #383838;
+    color: #ffffff;
+    font-size: 16px;
+    min-width: 150px;
+    direction: ltr;
+    
+    &:focus {
+        outline: none;
+        border-color: #57ABDC;
+    }
+}
+
+.dateSearch__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.filterButton {
+    padding: 10px 20px;
+    background: #57ABDC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    &:hover {
+        background: #4a95c4;
+    }
+}
+
+.resetButton {
+    padding: 10px 20px;
+    background: #C25858;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    &:hover {
+        background: #a84a4a;
+    }
+}
+

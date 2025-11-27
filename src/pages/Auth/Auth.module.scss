@@ -1,0 +1,32 @@
+.wrap__auth{
+  background: var(--gray);
+  margin: 0 auto;
+  width: 392px;
+  padding: 24px;
+  border-radius: 24px;
+  font-family: Inter,sans-serif;
+  background: linear-gradient(rgba(255, 20, 20, 0.1019607843) 0%, rgb(8 0 255 / 15%) 100%), #363636;
+}
+
+.auth_screen{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgb(182 5 5 / 13%) 14%, rgba(6, 0, 178, 0.2) 69%, rgba(82, 2, 102, 0.2) 89%);
+}
+
+.auth__header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.auth__title{
+  font-size: 28px;
+}
+
+.auth_subtitle{
+  font-size:16px;
+  color: var(--light-gray);
+}

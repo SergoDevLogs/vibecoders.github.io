@@ -1,0 +1,168 @@
+.block__wrap{
+  width: 100%;
+  background:#5b5b5b69;
+  border-radius: 20px;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.stat{
+  font-size: 40px;
+  border-bottom: 1px solid #595959;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.count{
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  padding-left: 30px;
+  position: relative;
+}
+
+.count:before{
+  content: "•";
+  color: white;
+  position: absolute;
+  left: 14px;
+}
+
+.stat__wrap{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.stat__el{
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 4em;
+  font-weight: 700;
+}
+
+.done{
+  color: #5BC86D;
+}
+
+.not__ready{
+  color: #BA8F46;
+}
+
+.in__process{
+  color:#57ABDC
+}
+
+.canceled{
+  color: #C25858;
+}
+
+.chart__container {
+  margin: 30px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.chart__title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #ccc;
+  font-style: italic;
+}
+
+.no_data {
+  text-align: center;
+  padding: 40px;
+  color: #888;
+  font-style: italic;
+}
+
+.chart__subtitle {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.chart__wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.pie__wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.pie__chart {
+  flex: 1;
+  min-width: 250px;
+}
+
+.pie__legend {
+  flex: 1;
+  min-width: 200px;
+}
+
+.legend__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 4px 0;
+}
+
+.legend__color {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.legend__text {
+  flex: 1;
+  font-size: 12px;
+  color: white;
+  word-break: break-word;
+}
+
+.legend__value {
+  font-size: 12px;
+  color: #ccc;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+.no_charts_message {
+  text-align: center;
+  padding: 40px;
+  color: #888;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.chart__container .recharts-cartesian-grid-horizontal line,
+.chart__container .recharts-cartesian-grid-vertical line {
+  stroke: #444;
+}
+
+.chart__container .recharts-text {
+  fill: #ccc;
+  font-size: 12px;
+}
